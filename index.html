@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login com efeito</title>
+</head>
+<body>
+    <div class="login-box" id="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="user-box" id="home-screen">
+                <input type="email" name="email" required>
+                <label>E-mail</label>
+            </div>
+            <div class="user-box" id="home-screen">
+                <input type="password" name="password" required>
+                <label>Senha</label>
+            </div>
+            <a href="#" id="btn-ent"onclick="entrar()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                ENTRAR
+            </a>
+            <a href="#" id="btn-cad" onclick="cadastrar()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                CADASTRAR
+            </a>
+        </form>
+    </div>
+
+    <div class="login-box cad" id="login-box-cad">
+        <a href="" class="voltar">
+            <img src="./images/botao-voltar.png" width="30px" height="30px" title="Voltar" alt="">
+        </a>
+        <h2>CADASTRO</h2>
+        <form>
+            <div class="container">
+                <div class="user-box cad">
+                    <input type="text" name="" required="">
+                    <label>Nome</label>
+                </div>
+                <div class="user-box cad">
+                    <input type="text" name="" required="">
+                    <label>Sobrenome</label>
+                </div>
+            </div>
+            <div class="container line-2">
+                <div class="user-box cad">
+                    <input type="text" name="" required="">
+                    <label>E-mail</label>
+                </div>
+                <div class="user-box cad">
+                    <input type="password" name="" required="">
+                    <label>Senha</label>
+                </div>
+            </div>
+            
+            <a href="#" id="cad">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                CADASTRAR
+            </a>
+        </form>
+    </div>
+</body>
+</html>
